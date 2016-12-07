@@ -1,6 +1,6 @@
-# Penguin
+# Penguin 2.0 Dark
 
-A minimalistic theme for [Ghost](https://ghost.org/).
+A minimalistic dark theme for [Ghost](https://ghost.org/).
 
 ## Installation
 

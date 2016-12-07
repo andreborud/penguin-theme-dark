@@ -25,7 +25,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+input,
+button {
     color: #F3F4F4;
 }
 
@@ -71,18 +73,40 @@ hr {
     border-bottom: 1px rgba(128,128,128,0.5) solid;
 }
 
+section.subscribe div button {
+    background: #C29A51;
+    border: none;
+}
+
 section.subscribe div .form-group .subscribe-email {
     border: 1px solid #C29A51;
     background-color: rgba(0, 0, 0, 0.15);
+}
+
+input:active,
+input:focus {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+section.subscribe div button:hover {
+    background: #498AA0;
+}
+
+section.subscribe div button:active {
+    background: #3c7f95;
 }
 
 /*
     Fonts
 */
 
-body {
+body, input, button {
     font-family: SwedenSans, sans-serif;
     font-size: 16px;
+}
+
+button:focus, input:focus {
+    outline:0;
 }
 
 a {
@@ -154,6 +178,19 @@ main#posts article.post section h1 {
     font-size: 4em;
 }
 
+section.subscribe div p {
+    text-align: center;
+}
+
+header.error h1,
+header.subscribe h1 {
+    font-size: 4em;
+}
+
+header.error,
+header.subscribe {
+    text-align: center;
+}
 
 
 /*
@@ -321,6 +358,7 @@ section.subscribe div {
     position: relative;
     margin: 0 auto;
     width: 320px;
+    text-align: center;
 }
 
 section.subscribe div .form-group {
@@ -331,6 +369,23 @@ section.subscribe div .form-group .subscribe-email {
     padding: 0 24px;
     line-height: 32px;
     height: 32px;
+}
+
+section.subscribe div button {
+    padding: 0 24px;
+    line-height: 34px;
+    height: 34px;
+    margin-left: -5px;
+    display: inline;
+    cursor: pointer;
+}
+
+header.subscribe {
+    margin: 0 12px;
+}
+
+header.subscribe h1 {
+    margin: 32px;
 }
 
 footer {

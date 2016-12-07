@@ -34,24 +34,15 @@
         {{#if @blog.logo}}<a href="{{@blog.url}}" alt="{{@blog.title}}"><img src="{{@blog.logo}}" /></a>{{/if}}
     </header>
 
-    {{#if success}}
-      <header class="subscribe">
-        <h1>Subscribed!</h1>
+    <header class="error">
+        <h1>404</h1>
         <p>
-          You've successfully subscribed to <strong>{{@blog.title}}</strong> with the email address <strong>{{email}}</strong>.
+            Page does't exist!
         </p>
         <p>
             <a href="{{@blog.url}}">Return to main page</a>
         </p>
-      </header>
-    {{else}}
-      <header class="subscribe">
-        <h1>Something went wrong! :(</h1>
-        <p>
-            <a href="{{@blog.url}}">Return to main page</a>
-        </p>
-      </header>
-    {{/if}}
+    </header>
 
 </body>
 </html>
