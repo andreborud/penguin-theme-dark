@@ -357,7 +357,6 @@ section.subscribe {
 section.subscribe div {
     position: relative;
     margin: 0 auto;
-    width: 320px;
     text-align: center;
 }
 
@@ -471,6 +470,10 @@ footer {
     main.post-container--single article p img {
         margin: 32px 0;
         width: 100%;
+    }
+
+    section.subscribe div {
+        margin: 0 12px;
     }
 }
 
