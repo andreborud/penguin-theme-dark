@@ -450,10 +450,12 @@ footer {
 
     nav#navigation {
         margin: 24px 12px;
+        width: calc(100% - 24px);
     }
 
     nav.social {
         margin: 48px 12px 24px 12px;
+        width: calc(100% - 24px);
     }
 
     summary.about {
