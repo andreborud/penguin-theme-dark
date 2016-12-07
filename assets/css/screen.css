@@ -473,10 +473,6 @@ footer {
         margin: 32px 0;
         width: 100%;
     }
-
-    section.subscribe div {
-        margin: 0 12px;
-    }
 }
 
 @media (max-width: 782px) {
