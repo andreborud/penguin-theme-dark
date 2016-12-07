@@ -1,0 +1,23 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+<section>
+    {{> "about"}}
+    {{> "social"}}
+</section>
+
+<main id="posts" class="posts">
+
+    {{> "loop"}}
+
+    {{pagination}}
+
+    {{#if @labs.subscribers}}
+        <section class="subscribe">
+            <div>
+                <p>Get the latest posts to your inbox.</p>
+                {{subscribe_form placeholder="Your email"}}
+            </div>
+        </section>
+    {{/if}}
+</main>
