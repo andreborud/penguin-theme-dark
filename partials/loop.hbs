@@ -4,13 +4,19 @@
         {{#if image}}
             <div class="background" style="background-image: url({{image}});"></div>
         {{/if}}
+        <div class="borderbox">
+            <a href="{{url}}">
+                <div class="triangle">
+                    <div>VIEW</div>
+                </div>
+            </a>
+        </div>
         <section>
-
                 {{#has tag="text"}}
                     <h1>TEXT</h1>
                     <div class="content-container">
-                        <p class="tags">{{tags separator=" #" prefix="#"}}</p>
-                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+                        <p class="tags">#{{tags separator=" #"}}</p>
+                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM YYYY"}}</time>
                         <p class="intro">{{excerpt words="30"}}...</p>
                         <h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
                     </div>
@@ -33,13 +39,11 @@
                         {{/has}}
                     {{/has}}
                     <div class="content-container">
-                        <p class="tags">{{tags separator=" #" prefix="#"}}</p>
-                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+                        <p class="tags">#{{tags separator=" #"}}</p>
+                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM YYYY"}}</time>
                         <h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
                     </div>
                 {{/has}}
-
-
         </section>
     </div>
 </article>
