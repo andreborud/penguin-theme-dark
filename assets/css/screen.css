@@ -296,6 +296,7 @@ main#posts article div.adjuster div.background {
     opacity: 0.5;
     transition: opacity 256ms;
     background-size: cover;
+	background-position: center center;
 }
 
 main#posts article div.adjuster:hover div.background {
