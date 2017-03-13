@@ -1,8 +1,8 @@
-# Penguin 2.0.0 Dark
+# Penguin 2.0.1 Dark
 
 A minimalistic dark theme for [Ghost](https://ghost.org/). Based only on html and css to make it as lightweight as possible with the exception of [highlight.js](https://highlightjs.org/) for any code blocks.
 
-The main idea for the menu is to use tags as the links as well as for static pages or external urls. 
+The main idea for the menu is to use tags as the links as well as for static pages or external urls.
 
 ## Installation
 
