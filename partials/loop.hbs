@@ -33,7 +33,19 @@
                                 {{#has tag="drawn"}}
                                     <h1>DRAWN</h1>
                                 {{else}}
-
+									{{#has tag="design"}}
+										<h1>DESIGNED</h1>
+									{{else}}
+										{{#has tag="developed"}}
+											<h1>DEVELOPED</h1>
+										{{else}}
+											{{#has tag="illustrated"}}
+												<h1>ILLUSTRATED</h1>
+											{{else}}
+												
+											{{/has}}
+										{{/has}}
+									{{/has}}
                                 {{/has}}
                             {{/has}}
                         {{/has}}
