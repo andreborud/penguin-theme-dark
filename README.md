@@ -21,7 +21,7 @@ Penguin Dark comes with [highlight.js](https://highlightjs.org/) v9.9.0 for the 
 This theme support subscriptions in Ghost so make sure to enable that in the labs section if you find it interesting.
 
 ## License
-Copyright (c) 2016 André Borud
+Copyright (c) 2017 André Borud
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
