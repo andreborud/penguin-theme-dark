@@ -167,6 +167,10 @@ main.post-container--single article section.content h1 {
     line-height: 1.5em;
 }
 
+main#posts article.post section .tags {
+    font-size: 0.7em;
+}
+
 main.post-container--single article section.content h1 {
     font-size: 3em;
 }
@@ -178,7 +182,7 @@ main.post-container--single article section.content p {
 }
 
 main.post-container--single article section.content p.tags {
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 summary.about {
