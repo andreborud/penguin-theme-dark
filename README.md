@@ -1,4 +1,4 @@
-# Penguin 2.1.1 Dark
+# Penguin 2.2.0 Dark
 
 A minimalistic dark theme for [Ghost](https://ghost.org/). Based only on html and css to make it as lightweight as possible with the exception of [highlight.js](https://highlightjs.org/) for any code blocks.
 

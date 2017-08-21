@@ -11,52 +11,15 @@
                 </div>
             </a>
         </div>
-        <section>
-                {{#has tag="text"}}
-                    <h1>TEXT</h1>
-                    <div class="content-container">
-                        <p class="tags">#{{tags separator=" #"}}</p>
-                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM YYYY"}}</time>
-                        <p class="intro">{{excerpt words="30"}}...</p>
-                        <h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
-                    </div>
-                {{else}}
-                    {{#has tag="video"}}
-                        <h1>VIDEO</h1>
-                    {{else}}
-                        {{#has tag="photo"}}
-                            <h1>PHOTO</h1>
-                        {{else}}
-                            {{#has tag="sound"}}
-                                <h1>SOUND</h1>
-                            {{else}}
-                                {{#has tag="drawn"}}
-                                    <h1>DRAWN</h1>
-                                {{else}}
-									{{#has tag="design"}}
-										<h1>DESIGNED</h1>
-									{{else}}
-										{{#has tag="developed"}}
-											<h1>DEVELOPED</h1>
-										{{else}}
-											{{#has tag="illustrated"}}
-												<h1>ILLUSTRATED</h1>
-											{{else}}
-
-											{{/has}}
-										{{/has}}
-									{{/has}}
-                                {{/has}}
-                            {{/has}}
-                        {{/has}}
-                    {{/has}}
-                    <div class="content-container">
-                        <p class="tags">#{{tags separator=" #"}}</p>
-                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM YYYY"}}</time>
-                        <h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
-                    </div>
-                {{/has}}
-        </section>
+        <a href="{{url}}">
+        	<section>
+				<h1>{{primary_tag.name}}</h1>
+				<h3 class="post-title">{{{title}}}</h3>
+				<p class="intro">{{excerpt words="30"}}...</p>
+				<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM YYYY"}}</time>
+                <p class="tags"><span>#</span>{{tags separator="  <span>#</span>" autolink="false"}}</p>
+	        </section>
+		</a>
     </div>
 </article>
 {{/foreach}}

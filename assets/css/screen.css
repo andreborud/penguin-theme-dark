@@ -19,7 +19,8 @@ article.post section h1,
 nav.social p  a,
 nav#navigation a,
 article.post section .intro,
-article.post section .post-title a,
+article.post section .post-title,
+article.post section .tags,
 footer a,
 h1,
 h2,
@@ -34,7 +35,7 @@ main#posts article.post .borderbox .triangle div  {
 
 h6,
 nav.social p,
-article.post section .tags,
+article.post section .tags span,
 article.post section .post-date,
 footer {
     color: #C29A51;
@@ -177,7 +178,7 @@ main.post-container--single article section.content p {
 }
 
 main.post-container--single article section.content p.tags {
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 summary.about {
@@ -306,30 +307,29 @@ main#posts article div.adjuster:hover div.background {
 main#posts article.post section {
     display: flex;
     flex-direction: column;
+	box-sizing: border-box;
+	padding: 32px;
 }
 
 main#posts article.post section h1 {
-    margin: 32px;
+    margin: 0;
+	flex-grow: 2;
 }
 
 main#posts article.post section time {
     margin-bottom: 4px;
+	display: table;
 }
 
 main#posts article.post section .post-title,
 main#posts article.post section .intro {
     margin: 0 0 12px 0;
+	display: table;
 }
 
 main#posts article.post section .tags {
     margin: 0;
-}
-
-main#posts article.post section .content-container {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 32px;
-    flex-grow: 2;
+	display: table;
 }
 
 main#posts article.post .borderbox {
