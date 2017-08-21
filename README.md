@@ -6,6 +6,8 @@ The main idea for the menu is to use tags as the links as well as for static pag
 
 Updated to support Ghost 1.0+
 
+Min Ghost version supported is 1.2.0!
+
 ## Installation
 
 1. [Download theme](https://github.com/andreborud/penguin-theme-dark/archive/master.zip).
