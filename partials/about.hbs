@@ -1,8 +1,12 @@
 <summary class="about">
     <p>
-        Lorem ipsum...
+      {{#if @blog.logo}}
+          <img class="site-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
+      {{else}}
+          {{@blog.title}}
+      {{/if}}
     </p>
     <p>
-        Lorem ipsum...
+        {{@blog.description}}
     </p>
 </summary>
