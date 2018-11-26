@@ -614,3 +614,11 @@ footer {
         font-size: 0.4em;
     }
 }
+
+.kg-width-wide,
+.kg-width-full,
+.kg-gallery-container,
+.kg-gallery-row,
+.kg-gallery-image {
+    opacity: 1.0;
+}

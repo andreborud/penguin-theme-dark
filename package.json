@@ -1,11 +1,12 @@
 {
 	"name": "penguindark",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"description": "A simple dark lightweight html & css based theme for Ghost with the javascript addition of highlight.js",
   "engines": {
       "ghost": ">=1.2.0"
   },
   "license": "MIT",
+  "keywords": ["ghost-theme"],
   "author": {
     "name": "André Borud",
     "email": "andre.borud@gmail.com",

@@ -7,16 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{{@blog.title}} - {{title}}</title>
-    <meta name="author" content="{{author}}">
+    <meta name="author" content="{{authors}}">
     <meta name="designer" content="André Borud">
     <meta name="HandheldFriendly" content="True" />
 
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.min.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "fonts/foundation-icons.css"}}" />
-
-	<link rel="stylesheet" href="{{asset "css/androidstudio.min.css"}}">
-	<script src="{{asset "js/highlight.pack.js"}}"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -49,6 +45,10 @@
     </footer>
 
     {{ghost_foot}}
+
+	<link rel="stylesheet" href="{{asset "css/androidstudio.min.css"}}">
+	<script src="{{asset "js/highlight.pack.js"}}"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>

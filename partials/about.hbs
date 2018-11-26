@@ -1,8 +1,7 @@
 <summary class="about">
-    <p>
-        Lorem ipsum...
-    </p>
-    <p>
-        Lorem ipsum...
-    </p>
+    {{#get "posts" filter="page:true+slug:landing"}}
+        {{#foreach posts}}
+            {{content}}
+        {{/foreach}}
+    {{/get}}
 </summary>
