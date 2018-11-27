@@ -1,10 +1,10 @@
 <nav class="social">
-	{{#get "posts" filter="page:true+slug:social"}}
-        {{#foreach posts}}
+    {{#get "posts" slug="social" include="posts" as |post|}}
+        {{#post}}
 			<header>
 				<h6>{{title}}</h6>
 			</header>
             <p>{{content}}</p>
-        {{/foreach}}
+        {{/post}}
     {{/get}}
 </nav>
