@@ -1,7 +1,7 @@
 <summary class="about">
-    {{#get "posts" slug="landing" include="posts" as |post|}}
-        {{#post}}
-            {{content}}
-        {{/post}}
+    {{#get "pages" slug="landing" as |page|}}
+        {{#page}}
+			{{content}}
+        {{/page}}
     {{/get}}
 </summary>

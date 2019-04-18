@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>{{@blog.title}} - {{title}}</title>
+    <title>{{@site.title}} - {{title}}</title>
     <meta name="author" content="{{authors}}">
     <meta name="designer" content="André Borud">
     <meta name="HandheldFriendly" content="True" />
@@ -30,7 +30,7 @@
 <body>
 
     <header class="main-header" id="top">
-        {{#if @blog.logo}}<a href="{{@blog.url}}" alt="{{@blog.title}}"><img src="{{@blog.logo}}" /></a>{{/if}}
+        {{#if @site.logo}}<a href="{{@site.url}}" alt="{{@site.title}}"><img src="{{@site.logo}}" /></a>{{/if}}
     </header>
 
     <header class="error">

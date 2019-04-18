@@ -1,10 +1,10 @@
 <nav class="social">
-    {{#get "posts" slug="social" include="posts" as |post|}}
-        {{#post}}
+    {{#get "pages" slug="social" as |page|}}
+        {{#page}}
 			<header>
 				<h6>{{title}}</h6>
 			</header>
             <p>{{content}}</p>
-        {{/post}}
+        {{/page}}
     {{/get}}
 </nav>

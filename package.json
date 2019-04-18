@@ -1,18 +1,19 @@
 {
 	"name": "penguindark",
-	"version": "2.3.1",
+	"version": "2.3.3",
 	"description": "A simple dark lightweight html & css based theme for Ghost with the javascript addition of highlight.js",
-  "engines": {
-      "ghost": ">=2.0.0"
-  },
-  "license": "MIT",
-  "keywords": ["ghost-theme"],
-  "author": {
-    "name": "André Borud",
-    "email": "andre.borud@gmail.com",
-    "url": "https://andreborud.com"
-  },
-  "config": {
-      "posts_per_page": 10
-  }
+	"engines": {
+		"ghost": ">=2.0.0",
+		"ghost-api": "v2"
+	},
+	"license": "MIT",
+	"keywords": ["ghost-theme"],
+	"author": {
+		"name": "André Borud",
+		"email": "andre.borud@gmail.com",
+		"url": "https://andreborud.com"
+	},
+	"config": {
+		"posts_per_page": 10
+	}
 }
